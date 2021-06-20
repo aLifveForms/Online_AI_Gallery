@@ -34,10 +34,18 @@
     - [Download Fake Images](#download-fake-images)
     - [Composite Faces Library](#composite-faces-library)
     - [3D Face](#3d-face)
+- [Voice](#voice)
+    - [Voice Clone](#voice-clone)
+    - [Voice Machine Generated](#voice-machine-generated)
+    - [Song](#song)
 - [Animate](#animate)
     - [Face Bobbling](#face-bobbling)
-- [or pip install -r requirements.txt](#or-pip-install--r-requirementstxt)
-- [If result appears to lack audio:](#if-result-appears-to-lack-audio)
+- [Gallery](#gallery)
+- [Trouble Shooting](#trouble-shooting)
+- [License](#license)
+- [Want to Contribute?](#want-to-contribute)
+- [Team](#team)
+
 - [Gallery](#gallery)
 - [Trouble Shooting](#trouble-shooting)
 - [License](#license)
@@ -98,7 +106,7 @@ Perform the following actions:
 For windows: ```env/Script/activate``` <br />
 For Linux : ```source env/bin/activate ```
 
-5. Install the requirements for this step:```pip install dlib numpy opencv-python imutils```
+5. Install the requirements for this step: ```pip install dlib numpy opencv-python imutils```
    
 6. Run this command to build the dot files for each image: ```python src/faceCreatePoints.py \ --dat src/detectors/dots_detector shape_predictor_68_face_landmarks.dat \
   --imagespath src/data/fake_images```
@@ -113,6 +121,26 @@ For Linux : ```source env/bin/activate ```
 Based on [3D Face Reconstruction from a Single Image library](https://github.com/AaronJackson/vrn) we used the [demo](https://vrn.aaronsplace.co.uk/index.php) of this library. more info you can read the [project website](https://aaronsplace.co.uk/papers/jackson2017recon/)
 
 Coming soon ....
+
+
+# Voice
+Instead of using our voices, we will use various methods to clone them, convert text to speech, or generate songs for video recording.
+
+
+### Voice Clone
+Using [Google Colab](https://colab.research.google.com/drive/1qF4hjMsFPl-fLFhy3q0q5LLSgksNhIvT?usp=sharing) for Cloning voice.
+
+Please Note : Before run all the commands on the Google colab, prepare an audio of your voice upload it to the colab, change the file name "trump10.wav" to your audio file name & change the text in the 6th cell to the text you wanted the voice to say it.
+
+
+
+### Voice Machine Generated
+Coming Soon!
+
+### Song
+Coming Soon!
+
+
 
 
 # Animate 
@@ -212,7 +240,7 @@ Follow these steps for Using ***Wave2Lib locally***:
  git clone https://github.com/Rudrabha/Wav2Lip
  sudo apt-get install ffmpeg
  pip install librosa tqdm==4.45.0 numba opencv-contrib-python
- # or pip install -r requirements.txt
+ *** or pip install -r requirements.txt***
  mkdir -p detectors/face_detector
  curl https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth \
   --output detectors/face_detector/s3fd.pth
@@ -223,7 +251,8 @@ Follow these steps for Using ***Wave2Lib locally***:
    --checkpoint_path ../weights/wav2lip_gan.pth \
    --face "../../documentation/face_headbobble_3_destination.avi" \
    --audio "../../documentation/voice_gallium_20sec.mp3"
- # If result appears to lack audio:
+ 
+  ***If result appears to lack audio***:
  ffmpeg -i temp/result.avi -i temp/temp.wav -c:v copy -c:a aac temp/result_combined.avi
 
 ```
@@ -237,6 +266,8 @@ Result video including audio [here](./doc/animate_lipsync_gallium.mp4) and [here
 
 # Gallery 
 
+Different layouts for our online Gallery.
+Coming Soon...!
 
 
 # Trouble Shooting
@@ -266,9 +297,9 @@ Please take a look at our contributing guidelines if you're interested in helpin
 
 # Team
 
-Want to say Hi or buy us a coffee send us a PM! or donate here for us Thanks!.
+Want to say Hi or buy us a coffee send us a PM! or donate here for us Thanks!.:sunglasses: :two_hearts:
 
-
+<div>
 <a href="https://github.com/karmelyoei" target="_blank" ><img src="https://avatars.githubusercontent.com/u/39573452?s=400&u=55ba9a9bb308894a99e569492e7a827c3f743635&v=4"  style="border-radius:50%" width="100" ></a>
-
 <a href="https://github.com/cyphunk"  target="_blank"><img src="https://avatars.githubusercontent.com/u/119662?v=4"  style="border-radius:50%" width="100"></a>
+</div>
