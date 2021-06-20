@@ -11,8 +11,8 @@
 
 ## Objectives:
 
-1. Get around 300 fake images downloaded from a library called This Person doesnt not Exist API
-2. Find faces that might be duplicated
+1. Get around 300 fake images downloaded from a library called This Person doesnt not Exist API.
+2. Find faces that might be duplicated.
 3. Face Recognition. 
 4. Composite all face to generate one average face.
 5. Build a 3D modle of the average face.
@@ -60,10 +60,10 @@ Compiste faces will be created by processing a series of photos, to obtain these
 mkdir -p src/data/fake_images
 ```
 
-2. Run file names getFakeFaces.py
+2. Download 300 images from the website through Running file getFakeFaces.py, you can customize the number of images instead of 300.
    
 ```p
-python faces/getFakeFaces.py  src/data/fake_images 100
+python src/getFakeFaces.py  src/data/fake_images 300
 ```
 ![example](doc/fakeFaces.jpg)
 
@@ -74,6 +74,10 @@ python faces/getFakeFaces.py  src/data/fake_images 100
 After obtaining a slew of fake photographs from the first phase, we can use our face composite file to create an average face from these images. 
 
 For the composite face, we go through three steps: first, we detect the facial feature, then we normalize the images to the same reference frame (600* 600), and last, we align the faces together.
+
+We are using the dilb face recognition built with deep learning, For each facial image we calculate 68 facial landmarks using dlib.check out the Face dot map markup (what each dot represents) [here!](doc/face_dots_map.jpg).
+
+
 
 Perform the following actions:
 
@@ -127,7 +131,7 @@ For Linux : ```source env/bin/activate ```
    [link1](https://openavatarify.s3.amazonaws.com/weights/vox-adv-cpk.pth.tar)  or
    [link2](https://yadi.sk/d/M0FWpz2ExBfgAA) or  
    [link3](https://yadi.sk/d/M0FWpz2ExBfgAA).
-   or you can download it through this command 
+   or you can download it through this command. then save it under folder called src/checkpoints
 
    ```
    curl https://openavatarify.s3.amazonaws.com/weights/vox-adv-cpk.pth.tar \
@@ -163,4 +167,19 @@ We can compensate for those issues by limiting the head movements:
 ![example](doc/face_headbobble_2.gif)  
 ![example](doc/face_headbobble_1.gif)  
 ![example](doc/face_headbobble_3.gif)
+
+---
+
+***Note***: If results does not show your webcam frame you may need to manually edit the X,Y offesets at line 67. To get the size of your webcam using [testWebcam.py](src/testWebcam.py) and examine the output image in a image editor to figure out a X,Y offset that should be used in the image_animation code. 
+
+Above uses Real_Time_Image_Animation library with modifications. To rebuild Real_Time_Image_Animation from scratch:
+```
+git clone \
+    https://github.com/anandpawara/Real_Time_Image_Animation \
+    faces/Real_Time_Image_Animation
+
+// Modify code to use CPU and create destination output file
+cp headbobble_image_animation.py faces/Real_Time_Image_Animation/.
+
+```
 
