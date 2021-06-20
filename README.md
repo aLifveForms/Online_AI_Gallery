@@ -22,22 +22,23 @@
 
 # Table Of Content
 
-- [Home](#Online_AI_Gallery)
-- [Images](#Images)
-  - [Download Fake Images](#Download-Fake-Images)
-  - [Composite Faces Library](#Composite-Faces-Library)
-  - [3D Face](#face-3d)
-- [Voice](#voice)
-  - [Voice clone](#voice-clone)
-  - [Voice machine generated](#voice-machine-generated)
-  - [Song](#song)
-- [Animate](#animate)
-  - [Face bobbling](#face-bobbling)
-  - [Lip sync](#lip-sync)
-- [Display](#display)
-- [Trouble shooting](#trouble-shooting)
-- [License](LICENSE)
-- [Team members](#team-members)
+- [Online_AI_Gallery    ??LOGO](#online_ai_gallery----logo)
+  - [Objectives:](#objectives)
+- [Table Of Content](#table-of-content)
+- [Installation](#installation)
+- [Images](#images)
+    - [Download Fake Images](#download-fake-images)
+    - [Composite Faces Library](#composite-faces-library)
+
+
+# Installation
+
+First clone this repo then please follow each section's requirement to get your  results.
+
+```
+git clone https://github.com/karmelyoei/Online_AI_Gallery.git 
+```
+
 
 # Images
 
@@ -46,19 +47,46 @@ This section is about manipulating images. removing the faces from an image, rem
 ### Download Fake Images
 Compiste faces will be created by processing a series of photos, to obtain these photos, we will utilize a library called [This person does not exist API](https://pypi.org/project/thispersondoesnotexist/) to retrieve a large number of bogus images. Take the following actions:
 
-1. create a folder inside the src folder name it fake Images.
+1. create a folder inside the src folder name it fake_images.
    
 ```p
-mkdir -p src/data/fakeImages
+mkdir -p src/data/fake_images
 ```
 
 2. run file names getFakeFaces.py
    
 ```p
-python faces/getFakeFaces.py  src/data/fakeImages 100
+python faces/getFakeFaces.py  src/data/fake_images 100
 ```
 ![example](doc/fakeFaces.jpg)
 
 
 
 ### Composite Faces Library
+
+After obtaining a slew of fake photographs from the first phase, we can use our face composite file to create an average face from these images. 
+
+For the composite face, we go through three steps: first, we detect the facial feature, then we normalize the images to the same reference frame (600* 600), and last, we align the faces together.
+
+Perform the following actions:
+
+1. Download the shape predictor from this website [shape_predictor_68_face_landmarks.dat](https://github.com/davisking/dlib-models.) and save it under the folder name src/detectors/dots_detector/
+  
+2. Create virual environment : ```pip install virtualenv```
+   
+3. Build virtual environment: ```virtualenv env```
+
+4. Activate virtual environment
+For windows: ```env/Script/activate```
+For Linux : ```source env/bin/activate ```
+
+5. Install the requirements for this step:```pip install dlib numpy opencv-python imutils```
+   
+6. Run this command to build the dot files for each image: ```python src/faceCreatePoints.py \ --dat src/detectors/dots_detector shape_predictor_68_face_landmarks.dat \
+  --imagespath src/data/fake_images```
+
+7. Run the faceComposite file:```python src/faceComposite.py --path src/data/fake_images```
+8. You will find the results inside folder ```./src/data/fake_images/composite```
+   
+ <div style="text-align:center"><img src="doc/face_composite.small.png" /></div>
+
