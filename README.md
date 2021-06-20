@@ -38,6 +38,11 @@
     - [Face Bobbling](#face-bobbling)
 - [or pip install -r requirements.txt](#or-pip-install--r-requirementstxt)
 - [If result appears to lack audio:](#if-result-appears-to-lack-audio)
+- [Gallery](#gallery)
+- [Trouble Shooting](#trouble-shooting)
+- [License](#license)
+- [Want to Contribute?](#want-to-contribute)
+- [Team](#team)
 
 
 # Installation
@@ -228,3 +233,42 @@ the results will appear in temp/ folder.
 [ ![example](./doc/animate_lipsync2_gallium.gif) ](./doc/animate_lipsync2_gallium.mp4)
 
 Result video including audio [here](./doc/animate_lipsync_gallium.mp4) and [here](./doc/animate_lipsync2_gallium.mp4)
+
+
+# Gallery 
+
+
+
+# Trouble Shooting
+
+# License
+[MIT](https://tldrlegal.com/license/mit-license)
+
+[nanocomponent]: https://github.com/choojs/nanocomponent
+[nanolru]: https://github.com/s3ththompson/nanolru
+[bankai]: https://github.com/choojs/bankai
+[nanohtml]: https://github.com/choojs/nanohtml
+[browserify]: https://github.com/substack/node-browserify
+[budo]: https://github.com/mattdesl/budo
+[es2020]: https://github.com/yoshuawuyts/es2020
+[handbook]: https://github.com/yoshuawuyts/choo-handbook
+[hyperx]: https://github.com/substack/hyperx
+[morphdom-bench]: https://github.com/patrick-steele-idem/morphdom#benchmarks
+[nanomorph]: https://github.com/choojs/nanomorph
+[nanorouter]: https://github.com/choojs/nanorouter
+[yo-yo]: https://github.com/maxogden/yo-yo
+[unassertify]: https://github.com/unassert-js/unassertify
+[window-performance]: https://developer.mozilla.org/en-US/docs/Web/API/Performance
+
+# Want to Contribute?
+Please take a look at our contributing guidelines if you're interested in helping!
+
+
+# Team
+
+Want to say Hi or buy us a coffee send us a PM! or donate here for us Thanks!.
+
+
+<a href="https://github.com/karmelyoei" target="_blank"><img src="https://avatars.githubusercontent.com/u/39573452?s=400&u=55ba9a9bb308894a99e569492e7a827c3f743635&v=4"></a>
+
+<a href="https://github.com/cyphunk" target="_blank"><img src="https://avatars.githubusercontent.com/u/119662?v=4"></a>
