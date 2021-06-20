@@ -286,7 +286,7 @@ Coming Soon...!
 [window-performance]: https://developer.mozilla.org/en-US/docs/Web/API/Performance
 
 # Want to Contribute?
-Please take a look at our contributing guidelines if you're interested in helping!
+Please take a look at our [contributing guidelines](CONTRIBUTING.md) if you're interested in helping!
 
 
 # Team
