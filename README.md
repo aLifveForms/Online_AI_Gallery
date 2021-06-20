@@ -269,6 +269,6 @@ Please take a look at our contributing guidelines if you're interested in helpin
 Want to say Hi or buy us a coffee send us a PM! or donate here for us Thanks!.
 
 
-<a href="https://github.com/karmelyoei" target="_blank"><img src="https://avatars.githubusercontent.com/u/39573452?s=400&u=55ba9a9bb308894a99e569492e7a827c3f743635&v=4"></a>
+<a href="https://github.com/karmelyoei" target="_blank" ><img src="https://avatars.githubusercontent.com/u/39573452?s=400&u=55ba9a9bb308894a99e569492e7a827c3f743635&v=4" style=" border-radius: 30px;"></a>
 
-<a href="https://github.com/cyphunk" target="_blank"><img src="https://avatars.githubusercontent.com/u/119662?v=4"></a>
+<a href="https://github.com/cyphunk"  target="_blank"><img src="https://avatars.githubusercontent.com/u/119662?v=4" style=" border-radius: 30px;"></a>
