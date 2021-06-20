@@ -46,12 +46,6 @@
 - [Want to Contribute?](#want-to-contribute)
 - [Team](#team)
 
-- [Gallery](#gallery)
-- [Trouble Shooting](#trouble-shooting)
-- [License](#license)
-- [Want to Contribute?](#want-to-contribute)
-- [Team](#team)
-
 
 # Installation
 
