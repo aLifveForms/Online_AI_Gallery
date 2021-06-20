@@ -1,0 +1,759 @@
+{
+"id": "3hio5ztww-8c67-4d07-a881-35e75ec6a8e0",
+"language_model": "assemblyai_default",
+"acoustic_model": "assemblyai_default",
+"status": "completed",
+"audio_url": "https://cdn.assemblyai.com/upload/30de92a4-e7aa-4637-9b9e-2b8de59c4084",
+"text": "When the night has come And the land is dark And the moon is the only night we'll see No, I won't be afraid For I won't be afraid Just as long as you send Then by me So Dan do standby me Hope and by me or send any I stand by me If the Sky said we look upon to tumble And all of the mountains should crumble To the sea I won't cry I won't cry No, I won't sit a dear Just along as you said Stand by me And do stand by me Hold them by me Open out Stand by me Stand by me To do many bye bye a later bye No Oh.",
+"words": [
+{
+"text": "When",
+"confidence": 0.99,
+"end": 15870,
+"start": 14870
+},
+{
+"text": "the",
+"confidence": 0.99,
+"end": 16110,
+"start": 15900
+},
+{
+"text": "night",
+"confidence": 0.95,
+"end": 16470,
+"start": 16110
+},
+{
+"text": "has",
+"confidence": 0.99,
+"end": 18150,
+"start": 17150
+},
+{
+"text": "come",
+"confidence": 0.99,
+"end": 18540,
+"start": 18210
+},
+{
+"text": "And",
+"confidence": 0.99,
+"end": 21330,
+"start": 20330
+},
+{
+"text": "the",
+"confidence": 0.95,
+"end": 21510,
+"start": 21340
+},
+{
+"text": "land",
+"confidence": 0.9,
+"end": 21810,
+"start": 21520
+},
+{
+"text": "is",
+"confidence": 0.94,
+"end": 22140,
+"start": 21870
+},
+{
+"text": "dark",
+"confidence": 0.89,
+"end": 22650,
+"start": 22260
+},
+{
+"text": "And",
+"confidence": 0.98,
+"end": 23940,
+"start": 23700
+},
+{
+"text": "the",
+"confidence": 0.99,
+"end": 24180,
+"start": 23940
+},
+{
+"text": "moon",
+"confidence": 0.94,
+"end": 24540,
+"start": 24190
+},
+{
+"text": "is",
+"confidence": 0.99,
+"end": 25980,
+"start": 25020
+},
+{
+"text": "the",
+"confidence": 0.96,
+"end": 26220,
+"start": 26010
+},
+{
+"text": "only",
+"confidence": 0.92,
+"end": 26940,
+"start": 26220
+},
+{
+"text": "night",
+"confidence": 0.91,
+"end": 27990,
+"start": 27600
+},
+{
+"text": "we'll",
+"confidence": 0.94,
+"end": 28530,
+"start": 28050
+},
+{
+"text": "see",
+"confidence": 0.94,
+"end": 28770,
+"start": 28530
+},
+{
+"text": "No,",
+"confidence": 0.98,
+"end": 30600,
+"start": 29940
+},
+{
+"text": "I",
+"confidence": 0.8,
+"end": 32190,
+"start": 32040
+},
+{
+"text": "won't",
+"confidence": 0.86,
+"end": 32580,
+"start": 32190
+},
+{
+"text": "be",
+"confidence": 0.91,
+"end": 33930,
+"start": 33750
+},
+{
+"text": "afraid",
+"confidence": 0.94,
+"end": 34560,
+"start": 34050
+},
+{
+"text": "For",
+"confidence": 0.91,
+"end": 35460,
+"start": 35100
+},
+{
+"text": "I",
+"confidence": 0.64,
+"end": 35730,
+"start": 35490
+},
+{
+"text": "won't",
+"confidence": 0.91,
+"end": 36930,
+"start": 36570
+},
+{
+"text": "be",
+"confidence": 0.96,
+"end": 37950,
+"start": 37770
+},
+{
+"text": "afraid",
+"confidence": 0.91,
+"end": 38790,
+"start": 38100
+},
+{
+"text": "Just",
+"confidence": 0.89,
+"end": 40050,
+"start": 39780
+},
+{
+"text": "as",
+"confidence": 0.87,
+"end": 40320,
+"start": 40050
+},
+{
+"text": "long",
+"confidence": 0.97,
+"end": 40620,
+"start": 40330
+},
+{
+"text": "as",
+"confidence": 0.98,
+"end": 41970,
+"start": 41730
+},
+{
+"text": "you",
+"confidence": 0.86,
+"end": 42240,
+"start": 42030
+},
+{
+"text": "send",
+"confidence": 0.95,
+"end": 43770,
+"start": 42770
+},
+{
+"text": "Then",
+"confidence": 0.85,
+"end": 44070,
+"start": 43780
+},
+{
+"text": "by",
+"confidence": 0.99,
+"end": 44850,
+"start": 44080
+},
+{
+"text": "me",
+"confidence": 0.94,
+"end": 45000,
+"start": 44860
+},
+{
+"text": "So",
+"confidence": 0.85,
+"end": 46470,
+"start": 46290
+},
+{
+"text": "Dan",
+"confidence": 0.9,
+"end": 47580,
+"start": 46500
+},
+{
+"text": "do",
+"confidence": 0.88,
+"end": 48180,
+"start": 47580
+},
+{
+"text": "stand",
+"confidence": 0.93,
+"end": 49950,
+"start": 48950
+},
+{
+"text": "by",
+"confidence": 0.87,
+"end": 50130,
+"start": 49960
+},
+{
+"text": "me",
+"confidence": 0.96,
+"end": 50610,
+"start": 50400
+},
+{
+"text": "Hope",
+"confidence": 0.93,
+"end": 52470,
+"start": 51390
+},
+{
+"text": "and",
+"confidence": 0.95,
+"end": 53970,
+"start": 52970
+},
+{
+"text": "by",
+"confidence": 0.99,
+"end": 54720,
+"start": 53980
+},
+{
+"text": "me",
+"confidence": 0.85,
+"end": 54870,
+"start": 54730
+},
+{
+"text": "or",
+"confidence": 0.91,
+"end": 56700,
+"start": 55920
+},
+{
+"text": "send",
+"confidence": 0.96,
+"end": 59160,
+"start": 58160
+},
+{
+"text": "any",
+"confidence": 0.77,
+"end": 59610,
+"start": 59220
+},
+{
+"text": "I",
+"confidence": 0.79,
+"end": 60060,
+"start": 59940
+},
+{
+"text": "stand",
+"confidence": 0.81,
+"end": 61620,
+"start": 61110
+},
+{
+"text": "by",
+"confidence": 0.89,
+"end": 61800,
+"start": 61630
+},
+{
+"text": "me",
+"confidence": 0.94,
+"end": 64020,
+"start": 63020
+},
+{
+"text": "If",
+"confidence": 0.99,
+"end": 64170,
+"start": 64030
+},
+{
+"text": "the",
+"confidence": 0.87,
+"end": 64410,
+"start": 64200
+},
+{
+"text": "Sky",
+"confidence": 0.93,
+"end": 64740,
+"start": 64440
+},
+{
+"text": "said",
+"confidence": 0.82,
+"end": 66300,
+"start": 65970
+},
+{
+"text": "we",
+"confidence": 0.91,
+"end": 66450,
+"start": 66310
+},
+{
+"text": "look",
+"confidence": 0.94,
+"end": 66780,
+"start": 66450
+},
+{
+"text": "upon",
+"confidence": 0.97,
+"end": 67140,
+"start": 66790
+},
+{
+"text": "to",
+"confidence": 0.79,
+"end": 69840,
+"start": 69450
+},
+{
+"text": "tumble",
+"confidence": 0.97,
+"end": 70290,
+"start": 69850
+},
+{
+"text": "And",
+"confidence": 0.9,
+"end": 70620,
+"start": 70350
+},
+{
+"text": "all",
+"confidence": 0.84,
+"end": 71130,
+"start": 70770
+},
+{
+"text": "of",
+"confidence": 0.83,
+"end": 72450,
+"start": 72090
+},
+{
+"text": "the",
+"confidence": 0.98,
+"end": 72660,
+"start": 72460
+},
+{
+"text": "mountains",
+"confidence": 0.9,
+"end": 73440,
+"start": 72670
+},
+{
+"text": "should",
+"confidence": 0.85,
+"end": 74940,
+"start": 74550
+},
+{
+"text": "crumble",
+"confidence": 0.88,
+"end": 75450,
+"start": 74950
+},
+{
+"text": "To",
+"confidence": 0.97,
+"end": 76350,
+"start": 76140
+},
+{
+"text": "the",
+"confidence": 0.9,
+"end": 76650,
+"start": 76440
+},
+{
+"text": "sea",
+"confidence": 0.99,
+"end": 80250,
+"start": 79250
+},
+{
+"text": "I",
+"confidence": 0.96,
+"end": 80370,
+"start": 80260
+},
+{
+"text": "won't",
+"confidence": 0.86,
+"end": 80790,
+"start": 80380
+},
+{
+"text": "cry",
+"confidence": 0.97,
+"end": 82290,
+"start": 81290
+},
+{
+"text": "I",
+"confidence": 0.93,
+"end": 82440,
+"start": 82300
+},
+{
+"text": "won't",
+"confidence": 0.88,
+"end": 82890,
+"start": 82450
+},
+{
+"text": "cry",
+"confidence": 0.96,
+"end": 83790,
+"start": 82900
+},
+{
+"text": "No,",
+"confidence": 0.81,
+"end": 84120,
+"start": 83800
+},
+{
+"text": "I",
+"confidence": 0.97,
+"end": 84390,
+"start": 84120
+},
+{
+"text": "won't",
+"confidence": 0.81,
+"end": 85140,
+"start": 84780
+},
+{
+"text": "sit",
+"confidence": 0.88,
+"end": 86670,
+"start": 86250
+},
+{
+"text": "a",
+"confidence": 0.87,
+"end": 87090,
+"start": 86670
+},
+{
+"text": "dear",
+"confidence": 0.97,
+"end": 88350,
+"start": 87350
+},
+{
+"text": "Just",
+"confidence": 0.97,
+"end": 88620,
+"start": 88360
+},
+{
+"text": "along",
+"confidence": 0.96,
+"end": 89070,
+"start": 88650
+},
+{
+"text": "as",
+"confidence": 0.94,
+"end": 90570,
+"start": 89940
+},
+{
+"text": "you",
+"confidence": 0.93,
+"end": 90840,
+"start": 90630
+},
+{
+"text": "said",
+"confidence": 0.94,
+"end": 92340,
+"start": 91340
+},
+{
+"text": "Stand",
+"confidence": 0.79,
+"end": 92670,
+"start": 92350
+},
+{
+"text": "by",
+"confidence": 0.98,
+"end": 93390,
+"start": 92680
+},
+{
+"text": "me",
+"confidence": 0.97,
+"end": 93570,
+"start": 93400
+},
+{
+"text": "And",
+"confidence": 0.9,
+"end": 95130,
+"start": 94800
+},
+{
+"text": "do",
+"confidence": 0.9,
+"end": 96180,
+"start": 95130
+},
+{
+"text": "stand",
+"confidence": 0.95,
+"end": 98490,
+"start": 97490
+},
+{
+"text": "by",
+"confidence": 0.97,
+"end": 99000,
+"start": 98500
+},
+{
+"text": "me",
+"confidence": 0.97,
+"end": 99180,
+"start": 99010
+},
+{
+"text": "Hold",
+"confidence": 0.93,
+"end": 101070,
+"start": 99960
+},
+{
+"text": "them",
+"confidence": 0.97,
+"end": 102570,
+"start": 101570
+},
+{
+"text": "by",
+"confidence": 0.98,
+"end": 103320,
+"start": 102580
+},
+{
+"text": "me",
+"confidence": 0.99,
+"end": 104490,
+"start": 103330
+},
+{
+"text": "Open",
+"confidence": 0.88,
+"end": 105600,
+"start": 104550
+},
+{
+"text": "out",
+"confidence": 0.99,
+"end": 107760,
+"start": 106760
+},
+{
+"text": "Stand",
+"confidence": 0.84,
+"end": 108150,
+"start": 107770
+},
+{
+"text": "by",
+"confidence": 0.98,
+"end": 108810,
+"start": 108160
+},
+{
+"text": "me",
+"confidence": 0.97,
+"end": 109020,
+"start": 108810
+},
+{
+"text": "Stand",
+"confidence": 0.84,
+"end": 110160,
+"start": 109770
+},
+{
+"text": "by",
+"confidence": 0.96,
+"end": 110730,
+"start": 110170
+},
+{
+"text": "me",
+"confidence": 0.95,
+"end": 110850,
+"start": 110740
+},
+{
+"text": "To",
+"confidence": 0.93,
+"end": 120270,
+"start": 119940
+},
+{
+"text": "do",
+"confidence": 0.86,
+"end": 144780,
+"start": 143700
+},
+{
+"text": "many",
+"confidence": 0.92,
+"end": 147180,
+"start": 146180
+},
+{
+"text": "bye",
+"confidence": 0.97,
+"end": 151770,
+"start": 150770
+},
+{
+"text": "bye",
+"confidence": 0.97,
+"end": 157530,
+"start": 156530
+},
+{
+"text": "a",
+"confidence": 0.85,
+"end": 164820,
+"start": 164460
+},
+{
+"text": "later",
+"confidence": 0.91,
+"end": 167070,
+"start": 166070
+},
+{
+"text": "bye",
+"confidence": 0.96,
+"end": 167280,
+"start": 167070
+},
+{
+"text": "No",
+"confidence": 0.91,
+"end": 167740,
+"start": 167620
+},
+{
+"text": "Oh.",
+"confidence": 0.91,
+"end": 170740,
+"start": 170620
+}
+],
+"utterances": null,
+"confidence": 0.918925619834711,
+"audio_duration": 175,
+"punctuate": true,
+"format_text": true,
+"dual_channel": null,
+"webhook_url": null,
+"webhook_status_code": null,
+"speed_boost": false,
+"auto_highlights_result": null,
+"auto_highlights": false,
+"audio_start_from": null,
+"audio_end_at": null,
+"word_boost": [],
+"boost_param": null,
+"filter_profanity": false,
+"redact_pii": false,
+"redact_pii_audio": false,
+"redact_pii_audio_quality": null,
+"redact_pii_policies": null,
+"redact_pii_sub": null,
+"speaker_labels": false,
+"billing_amount": 0.0
+}
