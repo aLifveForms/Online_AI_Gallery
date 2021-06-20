@@ -224,7 +224,7 @@ Follow these steps for Using ***Wave2Lib locally***:
 ```
 the results will appear in temp/ folder.
 
-[ ![example](./documentation/animate_lipsync_gallium.gif) ](./doc/animate_lipsync_gallium.mp4) 
+[ ![example](./doc/animate_lipsync_gallium.gif) ](./doc/animate_lipsync_gallium.mp4) 
 [ ![example](./doc/animate_lipsync2_gallium.gif) ](./doc/animate_lipsync2_gallium.mp4)
 
 Result video including audio [here](./doc/animate_lipsync_gallium.mp4) and [here](./doc/animate_lipsync2_gallium.mp4)
