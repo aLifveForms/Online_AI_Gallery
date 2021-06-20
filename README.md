@@ -36,6 +36,8 @@
     - [3D Face](#3d-face)
 - [Animate](#animate)
     - [Face Bobbling](#face-bobbling)
+- [or pip install -r requirements.txt](#or-pip-install--r-requirementstxt)
+- [If result appears to lack audio:](#if-result-appears-to-lack-audio)
 
 
 # Installation
@@ -183,3 +185,46 @@ cp headbobble_image_animation.py faces/Real_Time_Image_Animation/.
 
 ```
 
+### Lip sync
+
+Used LipSunc library through [Google Colab](https://colab.research.google.com/drive/10Z7HFUUGtJVFcabjXf6BUUOJUlC0ME7i#scrollTo=jR5utmDMcSZY) or using [Wav2Lip library](https://github.com/Rudrabha/Wav2Lip).
+
+
+Follow these steps for Using ***GoogleColab***:
+1. In your google Drive create two folders names "Wav2Lip" / "Wav2lip".
+2. Save the images and the aduio files in "Wav2Lip" folder.
+3. Save the training module Wav2lip + Gan in "Wav2lip" folder.
+
+To dowlond the training module click [here!.](https://iiitaphyd-my.sharepoint.com/personal/radrabha_m_research_iiit_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fradrabha%5Fm%5Fresearch%5Fiiit%5Fac%5Fin%2FDocuments%2FWav2Lip%5FModels%2Fwav2lip%5Fgan%2Epth&parent=%2Fpersonal%2Fradrabha%5Fm%5Fresearch%5Fiiit%5Fac%5Fin%2FDocuments%2FWav2Lip%5FModels&originalPath=aHR0cHM6Ly9paWl0YXBoeWQtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvcmFkcmFiaGFfbV9yZXNlYXJjaF9paWl0X2FjX2luL0Vkakk3YlpsZ0FwTXFzVm9FVVVYcExzQnhxWGJuNXo4VlRtb3hwNTVZTkRjSUE%5FcnRpbWU9M3dYYk9ZUVEyVWc)
+
+Then run the commands in the google colab by giving the code the authorization's code for your google drive to give it access to the folders.
+
+
+
+Follow these steps for Using ***Wave2Lib locally***:
+
+```
+ git clone https://github.com/Rudrabha/Wav2Lip
+ sudo apt-get install ffmpeg
+ pip install librosa tqdm==4.45.0 numba opencv-contrib-python
+ # or pip install -r requirements.txt
+ mkdir -p detectors/face_detector
+ curl https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth \
+  --output detectors/face_detector/s3fd.pth
+
+ cd voices/Wav2Lip
+
+ python inference.py \
+   --checkpoint_path ../weights/wav2lip_gan.pth \
+   --face "../../documentation/face_headbobble_3_destination.avi" \
+   --audio "../../documentation/voice_gallium_20sec.mp3"
+ # If result appears to lack audio:
+ ffmpeg -i temp/result.avi -i temp/temp.wav -c:v copy -c:a aac temp/result_combined.avi
+
+```
+the results will appear in temp/ folder.
+
+[ ![example](./documentation/animate_lipsync_gallium.gif) ](./doc/animate_lipsync_gallium.mp4) 
+[ ![example](./doc/animate_lipsync2_gallium.gif) ](./doc/animate_lipsync2_gallium.mp4)
+
+Result video including audio [here](./doc/animate_lipsync_gallium.mp4) and [here](./doc/animate_lipsync2_gallium.mp4)
