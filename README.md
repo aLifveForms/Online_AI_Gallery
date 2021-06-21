@@ -32,6 +32,7 @@
 - [Installation](#installation)
 - [Images](#images)
     - [Download Fake Images](#download-fake-images)
+    - [Detect OpenMouth Faces](#detect-openmouth-faces)
     - [Composite Faces Library](#composite-faces-library)
     - [3D Face](#3d-face)
 - [Voice](#voice)
@@ -76,7 +77,16 @@ python src/getFakeFaces.py  src/data/fake_images 300
 ```
 ![example](doc/fakeFaces.jpg)
 
+### Detect OpenMouth Faces
 
+The lipsyn library works well if the person opens his mouth without showing teeth, so we built an algorithm to detect whether the person in the picture opens his mouth or not, while detecting teeth is not 100% accurate and is still in the works...!
+
+Take the following actions:
+
+  
+1. Create folder name openMouth inside src dierctory : ```mkdir /src/openMouth```.
+2. Create folder name openMouthButTeethNotShowing inside src directory: ``` mkdir /src/openMouthButTeethNotShowing ```.
+3. Run file openMouth.py:  ```cd src && python openMouth.py```.
 
 ### Composite Faces Library
 
