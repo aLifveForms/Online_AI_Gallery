@@ -33,6 +33,7 @@
 - [Images](#images)
     - [Download Fake Images](#download-fake-images)
     - [Detect OpenMouth Faces](#detect-openmouth-faces)
+    - [Image resolution](#image-resolution)
     - [Composite Faces Library](#composite-faces-library)
     - [3D Face](#3d-face)
 - [Voice](#voice)
@@ -87,6 +88,16 @@ Take the following actions:
 1. Create folder name openMouth inside src dierctory : ```mkdir /src/openMouth```.
 2. Create folder name openMouthButTeethNotShowing inside src directory: ``` mkdir /src/openMouthButTeethNotShowing ```.
 3. Run file openMouth.py:  ```cd src && python openMouth.py```.
+
+### Image resolution
+
+Because [this person does not exist API](https://pypi.org/project/thispersondoesnotexist/) pictures have a high resolution, we require low resolution photos. The lipsync library works well with low resolution images; using the PLI library, we can reduce image resolutions by reducing the number of pixels in an image without changing the dimensions or other aspects of the image; the code can be found in the file imageResolution.py.
+
+***Note*** : Please remember to follow the steps in the correct order.
+
+``` python imageResolution.py```
+
+
 
 ### Composite Faces Library
 
