@@ -98,6 +98,10 @@ Because [this person does not exist API](https://pypi.org/project/thispersondoes
 ``` python imageResolution.py```
 
 
+<div>
+<a href="https://github.com/karmelyoei" target="_blank" ><img src="doc/pic79.png"   width="250" ></a>
+<a href="https://github.com/cyphunk"  target="_blank"><img src="doc/lowres11.jpeg"   width="250"></a>
+</div>
 
 ### Composite Faces Library
 
