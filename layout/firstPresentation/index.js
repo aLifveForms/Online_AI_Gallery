@@ -47,6 +47,7 @@ window.onload = function () {
     sectionTwo.className = 'hidden';
     div1.classList.remove('hidden');
     div1.classList.add(...classesToAdd);
+
     video1.play();
   }, 16000);
 
@@ -112,7 +113,7 @@ window.onload = function () {
     divfinal.className = 'fade-in';
     videofinal.className = 'show';
     videofinal.play();
-  }, 126000);
+  }, 110000);
 };
 
 function scrollDown(el) {
