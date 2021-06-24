@@ -1,5 +1,5 @@
 
-<img src="./doc/logo.png" width="150" align="right">
+<img src="./doc/logo2.png" width="150" align="right">
 
 
 # Online_AI_Gallery 
