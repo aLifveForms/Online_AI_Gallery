@@ -1,4 +1,5 @@
-# Online_AI_Gallery    ??LOGO
+# Online_AI_Gallery <img src="./doc/logo.png" width="150" align="right">
+
 
 
 ![python](https://img.shields.io/badge/Python-3-brightgreen)
@@ -26,7 +27,7 @@
 
 # Table Of Content
 
-- [Online_AI_Gallery    ??LOGO](#online_ai_gallery----logo)
+- [Online_AI_Gallery <img src="./doc/logo.png" width="150" align="right">](#online_ai_gallery-)
   - [Objectives:](#objectives)
 - [Table Of Content](#table-of-content)
 - [Installation](#installation)
