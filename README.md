@@ -286,7 +286,8 @@ Result video including audio [here](./doc/animate_lipsync_gallium.mp4) and [here
 # Gallery 
 
 Different layouts for our online Gallery.
-Coming Soon...!
+Please check out the presentations files inside the layout folder.
+Coming soon..!
 
 
 # Trouble Shooting
