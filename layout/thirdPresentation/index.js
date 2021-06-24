@@ -1,4 +1,7 @@
 window.onload = function () {
+  var animate1 = document.getElementById('animate1');
+  var animate2 = document.getElementById('animate2');
+
   var video1 = document.getElementById('1');
   var div1 = document.getElementById('v1');
 
@@ -26,7 +29,6 @@ window.onload = function () {
   var video8 = document.getElementById('8');
   var div8 = document.getElementById('v8');
 
-  
   var videofinal = document.getElementById('final');
   var divfinal = document.getElementById('final-section');
 
@@ -41,14 +43,19 @@ window.onload = function () {
   }
 
   setTimeout(() => {
+    animate1.classList.remove('hidden');
+
+    animate2.classList.remove('hidden');
+  }, 16000);
+
+  setTimeout(() => {
     console.log('sectionTwo show');
     sectionTwo.className = 'hidden';
     div1.classList.remove('hidden');
     div1.classList.add(...classesToAdd);
-    console.log("video1",video1)
+    console.log('video1', video1);
     video1.play();
   }, 16000);
-
 
   setTimeout(function () {
     div1.className = 'hidden';
@@ -100,7 +107,6 @@ window.onload = function () {
     // video8.muted = true;
     video8.play();
   }, 93000);
-
 
   setTimeout(function () {
     div8.className = 'hidden';

@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="./index.js"></script>
-    <title>Third Show</title>
+    <title>Third show</title>
   </head>
   <body>
     <div id="final-section" class="hidden">
@@ -15,6 +16,34 @@
         <source src="../assets/final.mp4" type="video/mp4" />
       </video>
     </div>
+
+    <lottie-player
+      src="https://assets7.lottiefiles.com/packages/lf20_xldshlit.json"
+      background="transparent"
+      speed="1"
+      style="width: 300px; height: 300px"
+      loop
+      autoplay
+      id="animate1"
+      class="hidden"
+    ></lottie-player>
+
+    <lottie-player
+      src="https://assets7.lottiefiles.com/packages/lf20_xldshlit.json"
+      background="transparent"
+      speed="1"
+      style="
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      "
+      loop
+      autoplay
+      id="animate2"
+      class="hidden"
+    ></lottie-player>
 
     <div id="v1" class="hidden">
       <video id="1">
@@ -64,6 +93,7 @@
       </video>
     </div>
 
+  
     <div id="sectionTwo" class="show">
       <div class="conatiner">
         <div class="mar">
