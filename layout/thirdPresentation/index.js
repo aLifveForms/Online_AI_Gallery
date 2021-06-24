@@ -110,6 +110,8 @@ window.onload = function () {
 
   setTimeout(function () {
     div8.className = 'hidden';
+    animate1.className = 'hidden';
+    animate2.className = 'hidden';
     divfinal.className = 'fade-in';
     videofinal.className = 'show';
     videofinal.className = 'videofinal';
