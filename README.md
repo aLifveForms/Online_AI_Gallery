@@ -1,4 +1,8 @@
-# Online_AI_Gallery <img src="./doc/logo.png" width="150" align="right">
+
+<img src="./doc/logo.png" width="150" align="right">
+
+
+# Online_AI_Gallery 
 
 
 
@@ -27,7 +31,7 @@
 
 # Table Of Content
 
-- [Online_AI_Gallery <img src="./doc/logo.png" width="150" align="right">](#online_ai_gallery-)
+- [Online_AI_Gallery](#online_ai_gallery)
   - [Objectives:](#objectives)
 - [Table Of Content](#table-of-content)
 - [Installation](#installation)
