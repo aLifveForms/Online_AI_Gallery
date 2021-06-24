@@ -290,6 +290,7 @@ Coming Soon...!
 
 
 # Trouble Shooting
+You may encounter some issues; you can find solutions to these issues in this file [issues](issues.md); if you cannot find the issue, you can open a new issue and we will assist you in resolving it.
 
 # License
 [MIT](https://tldrlegal.com/license/mit-license)
